@@ -1,5 +1,3 @@
----
-
 # 🕵️‍♂️ OSINT Portal
 
 **ITA 🇮🇹**
