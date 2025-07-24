@@ -59,7 +59,7 @@ Eccoti il **README** professionale per il tuo progetto **OSINT Portal**, in **do
 | Frontend               | Tailwind CSS + Vanilla JS                   |
 | OSINT API              | httpx, dnspython, python-whois, Shodan      |
 | Database (opz.)        | SQLite *(per cronologia locale / optional)* |
-| Hosting                | GitHub Pages (frontend) + Render (API)      |
+| Hosting                | Vercel (frontend) + ---                     |
 
 ---
 
