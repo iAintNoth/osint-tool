@@ -1,5 +1,3 @@
-Eccoti il **README** professionale per il tuo progetto **OSINT Portal**, in **doppia lingua (🇮🇹 Italiano e 🇬🇧 English)**.
-
 ---
 
 # 🕵️‍♂️ OSINT Portal
