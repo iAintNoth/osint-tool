@@ -59,7 +59,7 @@ Eccoti il **README** professionale per il tuo progetto **OSINT Portal**, in **do
 | Frontend               | Tailwind CSS + Vanilla JS                   |
 | OSINT API              | httpx, dnspython, python-whois, Shodan      |
 | Database (opz.)        | SQLite *(per cronologia locale / optional)* |
-| Hosting                | GitHub Pages (frontend) + Render (API)      |
+| Hosting                | Vercel (frontend) + ---                     |
 
 ---
 
@@ -67,25 +67,51 @@ Eccoti il **README** professionale per il tuo progetto **OSINT Portal**, in **do
 
 ```
 osint-portal/
-├── app/
-│   ├── main.py
-│   ├── api/
-│   │   ├── username.py
-│   │   ├── domain.py
-│   ├── services/
-│   │   ├── github.py
-│   │   ├── twitter.py
-│   │   ├── whois.py
-│   │   ├── dns.py
-│   │   ├── shodan.py
-│   └── templates/
-│       └── index.html
-├── static/
-│   └── styles.css
-├── .env
-├── requirements.txt
-├── README.md
-└── Dockerfile (facoltativo / optional)
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── domain.py
+│   │   │   ├── email.py
+│   │   │   ├── ip.py
+│   │   │   ├── username.py
+│   │   ├── services/
+│   │   │   ├── dns.py
+│   │   │   ├── github.py
+│   │   │   ├── hibp.py
+│   │   │   ├── ipinfo.py
+│   │   │   ├── shodan.py
+│   │   │   ├── whois.py
+│   │   ├── utils/
+│   │   │   ├── helpers.py
+│   │   ├── main.py
+│   └── requirements.txt
+│
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── ui/
+│   │   │       └── Layout.tsx
+│   │   ├── hooks/
+│   │   ├── lib/
+│   │   ├── pages/
+│   │   ├── App.css
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   ├── index.html
+│   │   ├── main.tsx
+│   │   └── vite-env.d.ts
+│   ├── components.json
+│   ├── eslint.config.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+
 ```
 
 ---
