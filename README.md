@@ -1,4 +1,4 @@
-# 🕵️‍♂️ OSINT Portal
+see# 🕵️‍♂️ OSINT Portal
 
 **ITA 🇮🇹**
 **OSINT Portal** è una web app pensata per Ethical Hacker, Cybersecurity Analyst e Penetration Tester, progettata per centralizzare la raccolta di informazioni pubbliche (OSINT) su **username** e **domini**.
@@ -185,7 +185,3 @@ Pull requests and suggestions are welcome!
 
 Apri una issue per proporre funzionalità o segnalare problemi.
 Open an issue for bugs or feature requests.
-
----
-
-Se vuoi ti genero anche il file `requirements.txt` pronto all’uso. Fammi sapere!
