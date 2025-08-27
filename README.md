@@ -1,4 +1,4 @@
-see# 🕵️‍♂️ OSINT Portal
+# 🕵️‍♂️ OSINT Portal
 
 **ITA 🇮🇹**
 **OSINT Portal** è una web app pensata per Ethical Hacker, Cybersecurity Analyst e Penetration Tester, progettata per centralizzare la raccolta di informazioni pubbliche (OSINT) su **username** e **domini**.
